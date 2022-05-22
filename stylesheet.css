@@ -1,0 +1,163 @@
+* {
+	margin:0;
+	padding:0;
+}
+
+body {
+	font-family:"nunito";
+}
+
+/* navigation bar */
+ul.topnav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #6A4C93;
+  position:fixed;
+  width:100%;
+  top:0;
+  left:0;
+}
+
+ul.topnav li {float: left;}
+
+ul.topnav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 25px 27px;
+  text-decoration: none;
+  font-size:30px;
+}
+
+ul.topnav li a:hover:not(.active) {background-color: #0a014f;}
+
+ul.topnav li a.active {background-color: #0a014f;}
+
+ul.topnav li.right {float: right;}
+
+@media screen and (max-width: 600px) {
+  ul.topnav li.right, 
+  ul.topnav li {float: none;}
+}
+
+/* banner */
+.banner {
+	width:100%;
+	/* background-color: #1982C4; */
+	max-height:500px;
+	padding:190px 0;
+	text-align:center;
+}
+
+.banner .head {
+	font-size:100px;
+	font-weight:bold;
+	color:white;
+	
+}
+
+/* preview */
+.info {
+	width:97.35%;
+	height:400px;
+	padding:20px;
+}
+
+.heading:hover {
+	opacity:50%;
+	cursor: pointer;
+}
+
+.pic {
+	width:290px;
+	height:260px;
+	float:left;
+	margin:50px;
+}
+
+.heading{
+	font-size: 30px;
+	font-weight: bold;
+	padding:20px;
+	color:white;
+}
+
+.body {
+	font-size:25px;
+	text-align:justify;
+	padding:20px;
+	color:white;
+}
+
+/* footer */
+.footer {
+  width: 100%;
+  background-color: #1982C4;
+  color: white;
+  text-align: center;
+  height:200px;
+}
+
+.footer p {
+	font-size: 30px;
+	font-weight: bold;
+	padding:20px;
+	color:white;
+}
+
+.footer a {
+	color:white;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-instagram {
+  background: #833AB4;
+  color: white;
+}
+
+/* sign up */
+fieldset {
+	font-size:25px;
+	font-weight:bold;
+	height:600px;
+	margin:0 20px 50px 20px;
+	background-color:#EAEAEA;
+	border:4px solid #cbc5ea;
+	color:#0a014f;
+}
+
+legend {
+	text-align:center;
+}
+.question {
+	width:1350px;
+	font-size:21px;
+	min-height:60px;
+	padding:15px 25px 0 25px;
+}
+
+.question input {
+	font-size:21px;
+}
+
+.question .submit {
+	height:40px;
+	width:150px;
+	background-color:#cbc5ea;
+	border:4px solid #6A4C93;
+}
