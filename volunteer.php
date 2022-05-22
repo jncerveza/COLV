@@ -12,7 +12,7 @@ Volunteer Sign-Up
 
 <!-- navigation bar -->
 <ul class="topnav">
-  <li><a href="home.html">Home</a></li>
+  <li><a href="index.html">Home</a></li>
       <li><a href="catcommunity.html">Cat Community</a></li>
   <li><a href="volunteer.php">Volunteer</a></li>
   <li><a href="adoptables.php">Adoptables</a></li>
